@@ -112,7 +112,7 @@ public class Item extends LinearLayout {
         return this.title;
     }
     public TextView getText(){
-        return  this.title.getText();
+        return  this.title;
     }
     
     public TextView getContent(){
