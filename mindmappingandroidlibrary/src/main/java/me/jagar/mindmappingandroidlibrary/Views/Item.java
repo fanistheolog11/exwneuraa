@@ -111,8 +111,8 @@ public class Item extends LinearLayout {
     public TextView getTitle(){
         return this.title;
     }
-    public TextView getTextes(){
-        return  title.getText();
+    public TextView getText(){
+        return  this.title.getText();
     }
     
     public TextView getContent(){
