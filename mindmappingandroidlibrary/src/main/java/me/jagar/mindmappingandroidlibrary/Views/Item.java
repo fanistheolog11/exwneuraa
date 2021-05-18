@@ -15,7 +15,7 @@ import java.util.HashMap;
 public class Item extends LinearLayout {
 
     Context context;
-    TextView title = new TextView(context);
+    TextView title;
     TextView content;
     boolean defaultStyle;
     ArrayList<Item> topChildItems = new ArrayList<>();
@@ -111,10 +111,6 @@ public class Item extends LinearLayout {
     public TextView getTitle(){
         return this.title;
     }
-    public TextView getText(){
-        return  this.title;
-    }
-    
     public TextView getContent(){
         return this.content;
     }
